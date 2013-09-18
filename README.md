@@ -1,5 +1,7 @@
 # DroidStrap
 
+![Screenshot](https://github.com/GrayGwizdz/droidstrap/raw/master/screenshot.png)
+
 This project aims to demonstrate a clean Javascript-Java Bridge for Android. The interface is built using Twitter Bootstrap for Responsive Web Design. By clicking on the two buttons inside of the Hello, World! banner, you will call a Javascipt function. These functions are in the Javascipt file android.js, which binds to the JavascriptHandler class. The JavascriptHandler class responds to function calls, then calls methods on the MainActivity class. These will either create a toast of a string grabbed from the WebView, or launch a Preferences Activity in Android. 
 
 ## License
