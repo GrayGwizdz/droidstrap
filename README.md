@@ -1,7 +1,7 @@
 # DroidStrap
 
 
-This project aims to demonstrate a clean Javascript-Java Bridge for Android. The interface is built using Twitter Bootstrap for Responsive Web Design. By clicking on the two buttons inside of the Hello, World! banner, you will call a Javascipt function. These functions are in the Javascipt file android.js, which binds to the JavascriptHandler class. The JavascriptHandler class responds to function calls, then calls methods on the MainActivity class. These will either create a toast of a string grabbed from the WebView, or launch a Preferences Activity in Android. 
+This project aims to demonstrate a clean Javascript-Java Bridge for Android. The interface is built using [Twitter Bootstrap](https://github.com/twbs/bootstrap) for Responsive Web Design. By clicking on either of the two buttons inside of the Hello, World! banner, you will call a Javascript function. These functions are in the Javascipt file [android.js](https://github.com/GrayGwizdz/droidstrap/blob/master/assets/files/js/android.js), which interfaces with the [JavascriptHandler](https://github.com/GrayGwizdz/droidstrap/blob/master/src/com/gray/gwizdz/example/droidstrap/JavascriptHandler.java) class. The JavascriptHandler class responds to function calls, then calls methods on the [MainActivity](https://github.com/GrayGwizdz/droidstrap/blob/master/src/com/gray/gwizdz/example/droidstrap/MainActivity.java) class. These will either create a toast of a string grabbed from the WebView, or launch an Android [Preferences](https://github.com/GrayGwizdz/droidstrap/blob/master/src/com/gray/gwizdz/example/droidstrap/PreferenceExample.java) Activity. 
 
 ## License
 
