@@ -13,9 +13,9 @@ public class JavascriptHandler {
 	MainActivity parentActivity;
 	
 	/** Constructor where reference to the parent {@link MainActivity MainActivity} is passed in.
-	*
-	* @param activity The parent activity holding the {@link MainActivity#myWebView WebView} that interacts with this handler.
-	*/
+	 *
+	 * @param activity The parent activity holding the {@link MainActivity#myWebView WebView} that interacts with this handler.
+	 */
     public JavascriptHandler(MainActivity activity)  {
         parentActivity = activity;
     }
